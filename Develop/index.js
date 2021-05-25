@@ -30,23 +30,23 @@ var questions = [
     choices: ["MIT", "GPLv2", "Apache", "None"],
   },
   {
-    type: "list",
+    type: "input",
     message: "What are the guildlines for contributing to this repository?",
     name: "contribution",
   },
   {
-    type: "list",
+    type: "input",
     message: "How do you run tests on this repository?",
     name: "tests",
     default: "npm test",
   },
   {
-    type: "list",
+    type: "input",
     message: "What is your github username?",
     name: "github",
   },
   {
-    type: "list",
+    type: "input",
     message: "What is your github email?",
     name: "email",
   },
